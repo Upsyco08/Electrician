@@ -1,12 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import NavBar from '../NavBar/NavBar'
+import TopBar from '../TopBar/TopBar'
 
 function AboutUs() {
   return (
-    <>
-      <NavBar />
-    </>
+    <div>About US</div>
   )
 }
 

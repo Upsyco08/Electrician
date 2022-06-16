@@ -3,9 +3,7 @@ import NavBar from '../NavBar/NavBar'
 
 function Prices() {
   return (
-    <>
-        <NavBar />
-    </>
+    <>Prices</>
   )
 }
 

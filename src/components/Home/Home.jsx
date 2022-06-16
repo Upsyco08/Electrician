@@ -2,7 +2,6 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import "./index.scss"
 import house from "../../assets/house.jpg"
-import TopBar from '../TopBar/TopBar'
 import { Field, Form, Formik } from 'formik'
 import BoltIcon from '@mui/icons-material/Bolt';
 
@@ -10,8 +9,6 @@ function Home() {
   return (
     <>
       <div className="homepage">
-        <TopBar /> 
-        <NavBar />
           <img className='home-image' src={house} alt="house" />
           <p className='home-uppertext'>we can light everything</p>
           <h1 className='home-lowertext1'>Nothing is</h1>
