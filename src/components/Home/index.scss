@@ -60,9 +60,46 @@
             background-color: rgb(47, 43, 65);
             color:white;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: center;
             height:100px;
             width: 80vw;
+        }
+    }
+    .home-form{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width:74vw;
+        .form-component{
+            height:40px;
+            border-radius: 5px;
+            padding-left:15px;
+            font-weight: 400;
+            font-size: 16px;
+            border:none;
+            width: 17%;
+        }
+        .form-button{
+            background-color: #ff5100;
+            height:40px;
+            width:15%;
+            padding-left:15px;
+            padding-right:25px;
+            border-radius: 5px;
+            font-weight:500;
+            font-size:14px;
+            border: 1px solid #ff5100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            &:hover{
+                color: #ff5100;
+                background-color: white;
+            }
+            .link-icon{
+                font-size: 18px;
+            }
         }
     }
 
