@@ -26,8 +26,10 @@ function NavBar() {
           <Link className='link' to="/faq" >Faq</Link>
           <Link className='link' to="/contact" >Contact</Link>
           <Link className='link-button' to="/appointment" >
-              <BoltIcon className='link-icon'/>
-              <p>Appointment</p>
+              <div className="appointment-container">
+                <BoltIcon className='link-icon'/>
+                <p>Appointment</p>
+              </div>
           </Link>
     </div>
   )
