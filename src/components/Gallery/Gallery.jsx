@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from '../NavBar/NavBar'
+import "./index.scss"
+
 
 function Gallery() {
   return (
