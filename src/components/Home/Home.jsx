@@ -1,13 +1,21 @@
 import React from 'react'
-import "./index.scss"
+
+import { Field, Form, Formik } from 'formik'
+
 import house from "../../assets/house.jpg"
 import electric from "../../assets/electric.jpg"
 import transformer from "../../assets/transformer.jpg"
 import profPic from "../../assets/pp.jpg"
 import signature from "../../assets/signature.jpg"
-import { Field, Form, Formik } from 'formik'
+import lightening from "../../assets/light.png"
+import commercial from "../../assets/commercial.jpg"
+import industrial from "../../assets/industrial.jpg"
+import residential from "../../assets/residential.jpg"
+
 import BoltIcon from '@mui/icons-material/Bolt';
 import DoneIcon from '@mui/icons-material/Done';
+
+import "./index.scss"
 
 function Home() {
   return (
@@ -67,6 +75,23 @@ function Home() {
           <div className='middle1-right-midLine'/>
           <img className='signature-image' src={signature} alt="signature" />
           </div>
+        </div>
+      </div>
+      <div className='middle2'>
+        <div className='middle2-left'>
+          <img src={commercial} alt="commercial" />
+          <img className='lightening-sign' src={lightening} alt="sign" />
+          <h1>Commercial</h1>
+        </div>
+        <div className='middle2-center'>  
+          <img src={industrial} alt="indusrial" />
+          <img className='lightening-sign' src={lightening} alt="sign" />
+          <h1>Industrial</h1>
+        </div>
+        <div className='middle2-right'> 
+          <img src={residential} alt="residential" />
+          <img className='lightening-sign' src={lightening} alt="sign" />
+          <h1>Residential</h1>
         </div>
       </div>
     </>

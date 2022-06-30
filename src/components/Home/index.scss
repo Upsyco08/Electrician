@@ -214,3 +214,102 @@
         }
     }
 }
+.middle2{
+    width:100vw;
+    display: flex;
+    margin-bottom: 50px;
+    .middle2-left{
+        flex:1;
+        position: relative;
+        img{
+            object-fit: cover;
+            width:33vw;
+            height: 600px;
+        }
+        .lightening-sign{
+            object-fit: fill;
+            height:200px;
+            width:100px;
+            opacity: 0.6;
+            position: absolute;
+            top: 25%;
+            left: 40%;
+            z-index:3
+        }
+        h1{
+            color: white;
+            position: absolute;
+            top:50%;
+            left: 28%;
+            font-size: 40px;
+            justify-content: center;
+        }
+        &:hover{
+            transform: scale(1.05);
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+    }
+    .middle2-center{
+        flex:1;
+        position: relative;
+        img{
+            object-fit: cover;
+            width:34vw;
+            height: 600px;
+        }
+        .lightening-sign{
+            object-fit: fill;
+            height:200px;
+            width:100px;
+            opacity: 0.6;
+            position: absolute;
+            top: 25%;
+            left: 40%;
+        }
+        h1{
+            color: white;
+            position: absolute;
+            top:50%;
+            left: 32%;
+            font-size: 40px;
+            justify-content: center;
+        }
+        &:hover{
+            transform: scale(1.05);
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+    }
+    .middle2-right{
+        flex:1;
+        position: relative;
+        img{
+            object-fit: cover;
+            width:33vw;
+            height: 600px;
+        }
+        .lightening-sign{
+            object-fit: fill;
+            height:200px;
+            width:100px;
+            opacity: 0.6;
+            position: absolute;
+            top: 25%;
+            left: 40%;
+        }
+        h1{
+            color: white;
+            position: absolute;
+            top:50%;
+            left: 28%;
+            font-size: 40px;
+            justify-content: center;
+        }
+        &:hover{
+            transform: scale(1.05);
+            z-index: 2;
+            transition: all 0.3s ease;
+        }
+    }
+}
