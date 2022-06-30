@@ -19,7 +19,7 @@ import "./index.scss"
 
 function Home() {
   return (
-    <>
+    <div className='home'>
       <div className="homepage-top">
           <img className='home-image' src={house} alt="house" />
           <p className='top-uppertext'>we can light everything</p>
@@ -100,7 +100,7 @@ function Home() {
           <div className='middle2-circle-animate'></div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

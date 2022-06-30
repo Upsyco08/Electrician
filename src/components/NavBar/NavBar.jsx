@@ -11,9 +11,7 @@ function NavBar() {
             <div className='nav-logo'>
               <img src={lighteningLogo} className="lightening-logo" alt="logo" />
               <div className='box'></div>
-              <h1>
-                Electrician
-              </h1>
+              <h1>Electrician</h1>
             </div>
           </Link>
           <Link className='link' to="/" >Home</Link>
