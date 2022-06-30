@@ -82,16 +82,22 @@ function Home() {
           <img src={commercial} alt="commercial" />
           <img className='lightening-sign' src={lightening} alt="sign" />
           <h1>Commercial</h1>
+          <div className='middle2-circle'>+</div>
+          <div className='middle2-circle-animate'></div>
         </div>
         <div className='middle2-center'>  
           <img src={industrial} alt="indusrial" />
           <img className='lightening-sign' src={lightening} alt="sign" />
           <h1>Industrial</h1>
+          <div className='middle2-circle'>+</div>
+          <div className='middle2-circle-animate'></div>
         </div>
         <div className='middle2-right'> 
           <img src={residential} alt="residential" />
           <img className='lightening-sign' src={lightening} alt="sign" />
           <h1>Residential</h1>
+          <div className='middle2-circle'>+</div>
+          <div className='middle2-circle-animate'></div>
         </div>
       </div>
     </>

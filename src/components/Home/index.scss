@@ -218,34 +218,69 @@
     width:100vw;
     display: flex;
     margin-bottom: 50px;
+    margin-left: -6vw;
     .middle2-left{
         flex:1;
         position: relative;
+        transform: skew(-5deg);
         img{
             object-fit: cover;
-            width:33vw;
+            width:40vw;
             height: 600px;
         }
         .lightening-sign{
+            transform: skew(5deg);
             object-fit: fill;
             height:200px;
             width:100px;
             opacity: 0.6;
             position: absolute;
-            top: 25%;
-            left: 40%;
-            z-index:3
+            top: 23%;
+            left: 50%;
         }
         h1{
+            transform: skew(5deg);
             color: white;
             position: absolute;
             top:50%;
-            left: 28%;
+            left: 38%;
             font-size: 40px;
             justify-content: center;
         }
+        .middle2-circle{
+            transform: skew(5deg);
+            color: white;
+            position: absolute;
+            left:54%;
+            top:60%;
+            border-radius: 50px;
+            z-index: 4;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            transition: all 0.5s ease;
+            &:hover{
+                color:#ff5100;
+                background-color: white;
+            }
+        }
+        .middle2-circle-animate{
+            transform: scale(1.2) skew(5deg);
+            position: absolute;
+            left:54%;
+            top:60%;
+            border-radius: 60px;
+            z-index: 3;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            opacity: 0.5;
+        }
         &:hover{
-            transform: scale(1.05);
+            transform: scale(1.05) skew(-5deg);
             z-index: 2;
             transition: all 0.3s ease;
         }
@@ -253,52 +288,92 @@
     .middle2-center{
         flex:1;
         position: relative;
+        transform: skew(-5deg);
         img{
             object-fit: cover;
             width:34vw;
             height: 600px;
         }
         .lightening-sign{
+            transform: skew(5deg);
             object-fit: fill;
             height:200px;
             width:100px;
             opacity: 0.6;
             position: absolute;
-            top: 25%;
+            top: 23%;
             left: 40%;
         }
         h1{
+            transform: skew(5deg);
             color: white;
             position: absolute;
             top:50%;
             left: 32%;
             font-size: 40px;
             justify-content: center;
+                
+        }
+        .middle2-circle{
+            transform: skew(5deg);
+            color: white;
+            position: absolute;
+            left:45%;
+            top:60%;
+            border-radius: 50px;
+            z-index: 4;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            transition: all 0.5s ease;
+            &:hover{
+                color:#ff5100;
+                background-color: white;
+            }
+        }
+        .middle2-circle-animate{
+            transform: scale(1.2) skew(5deg);
+            position: absolute;
+            left:45%;
+            top:60%;
+            border-radius: 60px;
+            z-index: 3;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            opacity: 0.5;
         }
         &:hover{
-            transform: scale(1.05);
+            transform: scale(1.05) skew(-5deg);
             z-index: 2;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
         }
     }
     .middle2-right{
         flex:1;
         position: relative;
+        transform: skew(-5deg);
+        margin-left: -1px;
         img{
             object-fit: cover;
             width:33vw;
             height: 600px;
         }
         .lightening-sign{
+            transform: skew(5deg);
             object-fit: fill;
             height:200px;
             width:100px;
             opacity: 0.6;
             position: absolute;
-            top: 25%;
+            top: 23%;
             left: 40%;
         }
         h1{
+            transform: skew(5deg);
             color: white;
             position: absolute;
             top:50%;
@@ -306,8 +381,40 @@
             font-size: 40px;
             justify-content: center;
         }
+        .middle2-circle{
+            transform: skew(5deg);
+            color: white;
+            position: absolute;
+            left:45%;
+            top:60%;
+            border-radius: 50px;
+            z-index: 4;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            transition: all 0.5s ease;
+            &:hover{
+                color:#ff5100;
+                background-color: white;
+            }   
+        }
+        .middle2-circle-animate{
+            transform: scale(1.2) skew(5deg);
+            position: absolute;
+            left:45%;
+            top:60%;
+            border-radius: 60px;
+            z-index: 3;
+            background-color: #ff5100;
+            width: 60px;
+            height: 60px;
+            opacity: 0.5;
+        }
         &:hover{
-            transform: scale(1.05);
+            transform: scale(1.05) skew(-5deg);
             z-index: 2;
             transition: all 0.3s ease;
         }
